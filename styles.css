@@ -26,3 +26,7 @@ h3 {
     color: #8e96f0;
   }
 }
+
+span.email b {
+  display: none;
+}
