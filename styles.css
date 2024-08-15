@@ -27,6 +27,11 @@ nav ul {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
@@ -38,7 +43,7 @@ nav ul {
   }
 
   a:visited {
-    color: #bb6911;
+    color: #c77114;
   }
 }
 
