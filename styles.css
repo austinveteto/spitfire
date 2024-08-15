@@ -12,18 +12,33 @@ h3 {
   line-height: 1.4;
 }
 
+nav {
+  margin: 20px 0;
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
-    background: #0d1117;
+    background: #0b1018;
   }
 
   a:link {
-    color: #58a6ff;
+    color: #ff8604;
   }
 
   a:visited {
-    color: #8e96f0;
+    color: #bb6911;
   }
 }
 
