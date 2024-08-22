@@ -6,25 +6,27 @@ body {
   color: #444;
 }
 
-h1,
-h2,
-h3 {
+h1,h2 {
   line-height: 1.4;
+  text-align: center;
 }
 
 nav {
-  margin: 20px 0;
   float: right;
 }
 
-nav li {
-  display: inline;
-}
-
-nav ul {
-  list-style-type: none;
+nav p {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+aside, footer {
+  text-align: center;
 }
 
 img {
@@ -32,10 +34,14 @@ img {
   height: auto;
 }
 
+footer img {
+  width: 180px;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
-    background: #0b1018;
+    background: #0c1525;
   }
 
   a:link {
