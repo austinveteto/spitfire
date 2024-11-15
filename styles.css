@@ -1,17 +1,25 @@
 body {
   max-width: 669px;
-  margin: 40px auto;
-  padding: 0 10px;
-  font: 18px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color: #444;
+  margin: auto;
+  padding: 0 42px;
+  font: 19px/2.3 Arial, sans-serif;
+  color: #FAF9F9;
+  background: #011936;
 }
 
 a {
   text-decoration: none;
+  color: #FF9505;
+}
+
+a:hover {
+  color: #F61067;
 }
 
 nav {
-  float: right;
+  width: 100%;
+  border-bottom: 4px solid #7D8CA3;
+  padding: 23px 0px 13px 0px;
 }
 
 nav ul {
@@ -23,24 +31,52 @@ nav li {
   margin: 0;
   padding: 0;
   display: inline;
+  font-size: 1.13em;
 }
 
 nav li:not(:last-child) {
-  margin-right: 18px;
+  margin-right: 33px;
 }
 
-h1,h2 {
-  line-height: 1.4;
+h1,h2,aside,footer {
   text-align: center;
+}
+
+h1 {
+  font-size: 2.89em;
+  margin-top: 42px;
+}
+
+aside {
+  margin-bottom: 42px;
+  font-size: 1.13em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 42px;
+}
+
+.pipe {
+  color: #F61067;
+}
+
+h3 {
+  font-size: 1.13em;
+}
+
+h4 {
+  font-size: 1.03em;
+}
+
+hr {
+  margin-top: 69px;
+  border: 2px solid #7D8CA3;
 }
 
 li {
   list-style: none;
-  padding-bottom: 8px;
-}
-
-aside, footer {
-  text-align: center;
+  padding-bottom: 12px;
 }
 
 img {
@@ -52,19 +88,8 @@ footer img {
   width: 180px;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #c9d1d9;
-    background: #0c1525;
-  }
-
-  a:link {
-    color: #ff8604;
-  }
-
-  a:visited {
-    color: #c77114;
-  }
+footer p {
+  margin-bottom: 0;
 }
 
 span.email b {
