@@ -31,7 +31,6 @@ nav li {
   margin: 0;
   padding: 0;
   display: inline;
-  font-size: 1.13em;
 }
 
 nav li:not(:last-child) {
@@ -43,30 +42,19 @@ h1,h2,aside,footer {
 }
 
 h1 {
-  font-size: 2.89em;
   margin-top: 42px;
 }
 
 aside {
   margin-bottom: 42px;
-  font-size: 1.13em;
 }
 
 h2 {
-  font-size: 1.8em;
   margin-top: 42px;
 }
 
 .pipe {
   color: #F61067;
-}
-
-h3 {
-  font-size: 1.13em;
-}
-
-h4 {
-  font-size: 1.03em;
 }
 
 hr {
