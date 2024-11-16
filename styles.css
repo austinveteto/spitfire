@@ -1,10 +1,14 @@
+html {
+  background-color: #3D5E62;
+}
+
 body {
   max-width: 669px;
   margin: auto;
   padding: 0 42px;
   font: 19px/2.3 Arial, sans-serif;
-  color: #FAF9F9;
-  background: #011936;
+  color: #E5E1EE;
+  background: #12263A;
 }
 
 a {
@@ -13,12 +17,12 @@ a {
 }
 
 a:hover {
-  color: #F61067;
+  color: #EA526F;
 }
 
 nav {
   width: 100%;
-  border-bottom: 4px solid #7D8CA3;
+  border-bottom: 2px solid #689689;
   padding: 23px 0px 13px 0px;
 }
 
@@ -53,13 +57,14 @@ h2 {
   margin-top: 42px;
 }
 
-.pipe {
-  color: #F61067;
+h4 {
+  border-left: 7px solid #EA526F;
+  padding-left: 12px;
 }
 
 hr {
   margin-top: 69px;
-  border: 2px solid #7D8CA3;
+  border: 1px solid #689689;
 }
 
 li {
